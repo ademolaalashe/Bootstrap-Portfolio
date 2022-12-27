@@ -98,7 +98,7 @@ header {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items:flex-start;
-    background-color: #183153;    
+    background-color: #FED049;    
   }
 
 /* Contact */
@@ -114,6 +114,24 @@ header {
 .contact h3 {
     color: white;
 }
+
+.box, .box2, .box3, .box4 {
+    transition: box-shadow .3s;
+}
+.box:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.box2:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.box3:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.box4:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
 
 /* Footer */
 
