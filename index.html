@@ -11,9 +11,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
     <title>Bootstrap Portfolio</title>
-
+    
 </head>
 
 <!-- Body -->
@@ -51,16 +50,14 @@
     </header>
 
 
-        <!-- Hero banner -->
+        <!-- Jumbotron -->
     <section>
-        <div class="jumbotron">    
-        <h1 class="display-4">Front End Web Developer</h1>
-        <img src="../Bootstrap-Portfolio/css/images/Ademola-Alashe.jpg" alt="Ade's Image">
-        <h2>Ademola Alashe</h2>
-        <p class="lead">Pellentesque auctor magna vel felis rutrum blandit.</p>
-        
-        <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Explore</a>
-        </div>   
+        <div>
+        <div class="hero-banner">    
+        <h1 class="front-end">Front End Web Developer</h1>   
+        <img src="../Bootstrap-Portfolio/css/images/Ademola-Alashe.jpg" alt="Ade image">
+        </div> 
+    </div> 
     </section> 
 
 
@@ -71,7 +68,8 @@
     <div class="container-fluid">
         <h2>Work</h2>
         <div class="row">
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <!-- Card 1 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12" id="cardcontainer">
             <div class="card">
               <img src="../Bootstrap-Portfolio/css/images/mac-pink.jpg" class="card-img-top" alt="Project Mac-Pink">
               <div class="card-body">
@@ -81,8 +79,8 @@
               </div>
             </div>
           </div>
-      
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <!-- Card 2 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12" id="cardcontainer2">
             <div class="card">
               <img src="../Bootstrap-Portfolio/css/images/Project-Matrix.jpg" class="card-img-top" alt="Project Matrix">
               <div class="card-body">
@@ -92,8 +90,8 @@
               </div>
             </div>
           </div>
-      
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12" id="cardcontainer3">
             <div class="card">
               <img src="../Bootstrap-Portfolio/css/images/Project-Nasa3.jpg" class="card-img-top" alt="Nasa">
               <div class="card-body">
@@ -104,10 +102,10 @@
             </div>
           </div>
 
-          
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+          <!-- Card 4 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12" id="cardcontainer4">
             <div class="card">
-              <img src="../Bootstrap-Portfolio/css/images/Project-Earth.jpg" class="card-img-top" alt="Project Earth">
+              <img src="../Bootstrap-Portfolio/css/images/macbook.jpg" class="card-img-top" alt="Project Earth">
               <div class="card-body">
                 <h5 class="card-title">Project Earth</h5>
                 <p class="card-text">Some quick example content.</p>
@@ -115,54 +113,6 @@
               </div>
             </div>
           </div>
-
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                  <img src="../Bootstrap-Portfolio/css/images/Project-Flight.jpg" class="card-img-top" alt="Portfolio Flight">
-                  <div class="card-body">
-                    <h5 class="card-title">Project Flight</h5>
-                    <p class="card-text">Some quick example content.</p>
-                    <a href="#" class="btn btn-primary">View</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                  <img src="../Bootstrap-Portfolio/css/images/Project-Matrix.jpg" class="card-img-top" alt="Project Matrix">
-                  <div class="card-body">
-                    <h5 class="card-title">Project Matrix</h5>
-                    <p class="card-text">Some quick example content.</p>
-                    <a href="#" class="btn btn-primary">View</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                  <img src="../Bootstrap-Portfolio/css/images/Project-Nasa3.jpg" class="card-img-top" alt="Nasa">
-                  <div class="card-body">
-                    <h5 class="card-title">Project Nasa</h5>
-                    <p class="card-text">Some quick example content.</p>
-                    <a href="#" class="btn btn-primary">View</a>
-                  </div>
-                </div>
-              </div>
-    
-              
-              <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                  <img src="../Bootstrap-Portfolio/css/images/Project-Earth.jpg" class="card-img-top" alt="Project Earth">
-                  <div class="card-body">
-                    <h5 class="card-title">Project Earth</h5>
-                    <p class="card-text">Some quick example content.</p>
-                    <a href="#" class="btn btn-primary">View</a>
-                  </div>
-                </div>
-              </div>
-
         </section>
 
         <!-- About -->
@@ -198,7 +148,7 @@
                     <li>React</li>
 
                 </ul>
-                <hr>
+               
             </div>
         </section>
 
@@ -207,7 +157,7 @@
     <footer>
       <section class="page-section contact" id="contact">
         <div class="section-title">
-          <h2>Contact</h2>
+          <h3>Contact</h3>
         </div>
         <div class="section-content">
             <a href="#" class="tel:074302556998"> +44 74302 556998</a>
