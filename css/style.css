@@ -24,6 +24,7 @@ a {
     text-decoration: none;
 }
 
+/* Header */
 
 header {
     
@@ -35,6 +36,8 @@ header {
     align-items: center;
     background-color: #fed049;
 }
+
+/* Hero Banner */
 
 .hero-banner {
     background: rgb(68, 88, 100);
@@ -54,6 +57,9 @@ header {
 .hero-banner div {
     flex: 0 10 90%;
   }
+
+/* Hero banner image border radius & cards */
+
   img {
     border-radius: 50%;
   }
@@ -104,16 +110,16 @@ header {
 /* Card container padding */
 
 #cardcontainer {
-    padding: 5%;
+    padding: 1%;
 }
 #cardcontainer2 {
-    padding: 5%;
+    padding: 1%;
 }
 #cardcontainer3 {
-    padding: 5%;
+    padding: 1%;
 }
 #cardcontainer4 {
-    padding: 5%;
+    padding: 1%;
 }
 
 .section-content {
@@ -230,9 +236,6 @@ ul li {
       border-bottom: 0.5rem solid #FED049;
   
     }
-
-    
-  
   
     .section-title, .section-content { 
       flex-basis: 100%; 
@@ -246,6 +249,11 @@ ul li {
     }
     .flex-item:first-child {
       min-height: 150px;
+    }
+
+    #contact {
+        flex-direction: column;
+        margin: auto;
     }
     
     /* Adjust header so it's centered in smaller devices using header, flex-direction: column */
