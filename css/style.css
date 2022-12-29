@@ -96,12 +96,6 @@ header {
     background: rgb(255, 255, 255, 0);
   }
   
-  .flex-item div {
-    background-color: #FED049;
-    padding: 10px;
-    z-index: 1;
-  }
-
   .card-text {
     display: flex;
     margin: .5em;
@@ -203,7 +197,6 @@ ul li {
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
-
 /* Footer */
 
 .footer {
@@ -211,3 +204,55 @@ ul li {
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+ 
+    section {
+      flex-direction: column;
+      margin: auto;
+    }
+
+    /* Hero banner and Dev image to column to be responsive */
+    .hero-banner {
+        flex-direction: column;
+        margin: auto
+    }
+
+    .hero-dev-img {
+        flex-direction: column;
+        margin: auto;
+    }
+
+  
+    .section-title {
+      border-right: none;
+      flex-direction: column;
+      border-bottom: 0.5rem solid #FED049;
+  
+    }
+
+    
+  
+  
+    .section-title, .section-content { 
+      flex-basis: 100%; 
+      margin-left: .5rem; 
+      justify-content: flex-start;
+    }
+  
+    .flex-item {
+      flex-basis: 100%;
+      min-height: 150px;
+    }
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+    
+    /* Adjust header so it's centered in smaller devices using header, flex-direction: column */
+  }
+  @media screen and (max-width: 400px) {
+    .header {
+      flex-direction: column;
+    }
+   
+  } 
