@@ -28,13 +28,16 @@ a {
 
 header {
     
-    padding: 15px 6% 15px 0;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #fed049;
+}
+
+/* Navbar background colour. (important used to override to make it work) */
+
+.navbar {
+    background-color: #FED049 !important;
 }
 
 /* Hero Banner */
